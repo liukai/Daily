@@ -1,0 +1,32 @@
+# bash
+
+# General
+alias update="source ~/.bashrc"
+alias rm="rm -i"
+alias cp="cp -i"
+alias mv="mv -i"
+alias ..="cd .."
+
+
+# Git related
+alias br="git branch"
+alias co="git checkout"
+alias st="git status"
+alias ci="git commit"
+alias rebase="git pull --rebase"
+alias pull="git pull --rebase"
+alias push="git push"
+alias track="git branch --set-upstream-to"
+alias stat="git diff --stat"
+alias nbr="git co master && git pull --rebase && git co -b "
+
+# Brew
+alias install="brew install"
+alias search="brew search"
+
+# Misc
+alias tree="tree -C"
+alias cd..="cd .."
+alias vim="vim -O"
+
+alias format="clang-format -i "
